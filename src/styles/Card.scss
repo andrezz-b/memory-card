@@ -1,0 +1,11 @@
+@import "variables";
+
+.card-container {
+  @include flexCenter(column);
+}
+
+.card-img {
+  height: 250px;
+  width: 150px;
+  object-fit: cover;
+}
