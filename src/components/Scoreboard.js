@@ -1,16 +1,17 @@
 import React from "react";
+import "../styles/Scoreboard.scss";
 
 function Scoreboard(props) {
   const { score, highScore } = props;
   return (
-    <div>
-      <h2>
+    <div className="score-container">
+      <h2 className="score-title">
         Score:
-        {score}
+        {` ${score}`}
       </h2>
-      <h2>
+      <h2 className="score-title">
         High Score:
-        {highScore}
+        {` ${highScore}`}
       </h2>
     </div>
   );

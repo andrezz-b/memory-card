@@ -4,3 +4,11 @@
   align-items: center;
   flex-direction: $direction;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+$ff-text: 'Archivo', sans-serif;
+
+$clr-bg: #343A40;
+$clr-bg-dk: darken(#343A40, 10%);
+$clr-accent: #F7E900;

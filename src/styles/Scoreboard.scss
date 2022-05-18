@@ -1,0 +1,14 @@
+@import "variables";
+
+.score-container {
+  @include flexCenter(column);
+  align-items: flex-start;
+  font-family: $ff-text;
+  padding: 1.25em 1.5em 0 0;
+  flex: 0.5;
+
+  .score-title {
+    font-size: 2em;
+    color: $clr-accent;
+  }
+}

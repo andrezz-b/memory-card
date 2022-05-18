@@ -16,7 +16,7 @@ function Card(props) {
     // eslint-disable-next-line jsx-a11y/no-static-element-interactions
     <div className="card-container" onClick={clickHandler} id={id}>
       <img src={img} alt="" className="card-img" />
-      <h2>{title}</h2>
+      <h2 className="card-title">{title}</h2>
     </div>
   );
 }

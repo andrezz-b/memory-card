@@ -3,6 +3,7 @@
 .board-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  row-gap: 3rem;
-  padding: 2em;
+  row-gap: 1.25rem;
+  column-gap: 5rem;
+  padding: 1.5em 4em;
 }

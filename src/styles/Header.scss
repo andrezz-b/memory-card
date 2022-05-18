@@ -1,0 +1,24 @@
+@import "variables";
+
+header {
+  @include flexCenter;
+  flex: 4;
+  column-gap: 2rem;
+  padding: 1rem;
+  width: 100%;
+  font-family: $ff-text;
+  background-color: $clr-bg-dk;
+
+  .header-title {
+    color: $clr-accent;
+    font-size: 3em;
+    font-weight: 700;
+  }
+}
+
+.logo-img {
+  height: auto;
+  width: 200px;
+  object-fit: cover;
+  transform: rotate(5deg);
+}

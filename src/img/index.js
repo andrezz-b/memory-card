@@ -8,8 +8,10 @@ import ScullyImg from "./NromScully.webp";
 import HitchcockImg from "./MichaelHitchcock.webp";
 import PimentoImg from "./AdrianPimento.webp";
 import GinaImg from "./GinaLinetti.webp";
+import b99Logo from "./Brooklyn_Nine-Nine_Logo.png";
 
 export {
+  b99Logo,
   PeraltaImg,
   SantiagoImg,
   HoltImg,

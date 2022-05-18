@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Scoreboard from "./components/Scoreboard";
 import CardBoard from "./components/CardBoard";
-import Footer from "./components/Footer";
 import "./styles/reset.css";
 import "./App.scss";
 
@@ -24,7 +23,6 @@ function App() {
           score={score}
         />
       </main>
-      <Footer />
     </>
   );
 }

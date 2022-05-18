@@ -9,14 +9,14 @@
 
 .header-container {
   @include flexCenter;
-  column-gap: 3rem;
   align-items: flex-start;
-  border: 1px solid black;
-  width: 75%;
+  width: 100%;
+  background-color: $clr-bg-dk;
+  position: relative;
 }
 
 main {
-  border: 1px solid black;
   width: 100%;
-  height: 75%;
+  height: 100%;
+  background-color: rgb(224, 234, 243);
 }
